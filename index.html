@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shawdow-multiple">
+</head>
+<style>
+  
+    p.dottedd {
+        border-radius: roundest;
+        border-color: hsl(0, 100%, 50%);
+        border: 6px solid red;
+    }
+    h1.ex {
+        margin: 30px;
+        background: yellow;
+        border: 1px solid black;
+        outline: 1px solid red;
+        outline-offset: 15px;
+       color: none;
+       text-align: center;
+       vertical-align: text-bottom;
+       text-decoration: underline blue wavy 5px;
+       text-transform: capitalize;
+       text-indent: 50px;
+       letter-spacing: 5px;
+       line-height: 1.8;
+       word-spacing: 10px;
+       white-space: nowrap;
+       text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        font-family: "Trirong", sans-serif;
+        font-style: oblique;
+        font-weight: normal;
+        font-variant: small-caps;
+        font-size: 10vw;
+    }
+    body{
+        font-family: "Sofia", sans-serif;
+        font-size: 30px;
+    }
+    p.a {
+        font: 20px Arial, sans-serif;
+    }
+    p.b {
+        font: italic small-caps bold 12px/30px Georgia, serif;
+    }
+   
+    a:link, a:visited{
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: aqua;
+    }
+    a:hover, a:active{
+        background-color: lightblue;
+        color: blue;
+    }
+    ul.a{
+        list-style-type: lower-alpha;
+        list-style-position: outside;
+    }
+    div.relative {
+        position: relative;
+        border: 3px Solid #73aD21;
+        width: 400PX;
+        height: 200px;
+    }
+    div.absolute {
+        position: absolute;
+        top: 80px;
+       
+        width: 200px;
+        height: 100px;
+        border: 3px solid #73AD21;
+    }
+    .container {
+        position: relative;
+    }
+    .black-box {
+        position: relative;
+        z-index: 1;
+        border: 2px solid black;
+        height: 100px;
+        margin: 30px;
+    }
+    .gray-box {
+        position: absolute;
+        z-index: 3;
+        background: lightblue;
+        width: 70%;
+        height: 60px;
+        left: 50px;
+        top: 50px;
+    }
+    .black-box {
+        position: absolute;
+        z-index: 2;
+        background: lightcoral;
+        height: 100px;
+        width: 35%;
+        left: 270px;
+        top: -15px;
+    }
+    img {
+        float: none;
+    }
+    div {
+            border: 3px solid #4caf50;
+            padding: 5px;
+    }
+    .div1 {
+        background: red;
+    }
+    .div2 {
+        background: #73AD21;
+    
+    }
+    .div3{
+        background: #f44336;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right {
+        float: right;
+        width: 300px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+    }
+    .img2 {
+        float: right;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+</style>
+<body>
+    <div class="clearfix">
+        <img class="img2" src="pichead.png" alt="Head" width="170" height="170">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+    </div>
+
+    <div class="right">
+        <p>
+            I see ya.
+        </p>
+    </div>
+    <img src="pichead.png" alt="Head" style="width: 40%;">
+
+    <div class="div1">Div 1</div>
+    <div class="div2" style="background-color: red;">Div 2</div>
+    <div class="div3">Div 3</div>
+    <!-- <img src="pichead.png" alt="head" style="width: 170px;height: 170px;margin-right:15px ;"> -->
+    <div class="container">
+        <div class="black-box">Black box</div>
+        <div class="gray-box">Gray box</div>
+        <div class="green-box">Green box</div>
+    </div>
+    <div class="relative">hi meme</div>
+    <div class="absolute">he meme</div>
+<ul class="a">
+    <li>Coffee</li>
+    <li>Coffee</li>
+    <li>Coffee</li>
+</ul>
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+
+ <i class="material-icons">cloud</i>
+ <i class="material-icons">attachment</i>
+ <i class="material-icons">favorite</i>
+ <i class="material-icons">computer</i>
+ <i class="material-icons">traffic</i>
+
+    <i class="glyphicon glyphicon-cloud"></i>
+<i class="glyphicon glyphicon-remove"></i>
+<i class="glyphicon glyphicon-user"></i>
+<i class="glyphicon glyphicon-envelope"></i>
+<i class="glyphicon glyphicon-thumbs-up"></i>
+    <i class="fas fa-cloud"></i>
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-car"></i>
+    <i class="fas fa-file"></i>
+    <i class="fas fa-bars"></i>
+<p class="dotted">Hello World</p>
+<h1 class="ex">Hello.</h1>
+<h1 class="font-effect-neon">Neon Effect</h1>
+<h1 class="font-effect-outline">Neon Effect</h1>
+<h1 class="font-effect-emboss">Neon Effect</h1>
+<h1 class="font-effect-shawdow-multiple">Neon Effect</h1>
+<p class="a"> This is a paragraph. The font size is set to 20 pixels, and the font family is Arial.</p>
+<p class="b">This is a paragraph. The font is set to italic, small-caps and bold, the font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia </p>
+
+
+</body>
+
+</html>
